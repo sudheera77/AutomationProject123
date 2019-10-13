@@ -47,7 +47,7 @@ class TestLogin():
             homepage.click_welcome()
             homepage.click_logout()
 
-            assert self.driver.title =="abc"
+            assert self.driver.title =="OrangeHRM"
             #assert title == "OrangeHRM"
         except AssertionError as error:
 
